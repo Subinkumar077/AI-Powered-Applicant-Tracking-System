@@ -7,6 +7,7 @@ export const meta = () => ([
     { name: 'description', content: 'Log into your account' },
 ])
 
+
 const Auth = () => {
     const { isLoading, auth } = usePuterStore();
     const location = useLocation();
